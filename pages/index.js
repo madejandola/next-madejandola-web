@@ -21,7 +21,7 @@ export default function Home() {
           >
             <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-3xl p-6">
               <div className="lg:px-0">
-                <h2 className="mt-6 mb-6 font-sans text-xl md:text-6xl text-center text-white">Sumérgete en un universo lleno de historias que nacen en los hilos de América Latina</h2>
+                <h2 className="mt-6 mb-6 font-sans text-3xl md:text-6xl text-center text-white">Sumérgete en un universo lleno de historias que nacen en los hilos de América Latina</h2>
               </div>
               <Link href="/tramas" >
                 <a className="btn red">Explorar trama</a>
