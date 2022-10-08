@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  @apply font-sans;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-gray-300;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-gray-800 bg-gradient-to-br from-gray-600 to-gray-800;
+}
+
+
+.btn {
+  @apply print:hidden inline-flex items-center justify-center px-4 py-2 font-mono uppercase text-xs md:text-base font-bold tracking-wide duration-300 bg-gray-200 border-0 rounded-md  cursor-pointer ring-0 bg-opacity-90 hover:ring-2 hover:bg-opacity-80 focus-visible:ring-2 shadow-lg hover:shadow focus-visible:ring-offset-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus:ring-2 ring-gray-800;
+}
+
+.btn.red {
+  @apply bg-red-500 text-white shadow-red-500/50 outline-none ring-red-600 print:text-gray-900 print:bg-gray-200 ;
+}
+
+.btn.blue {
+  @apply bg-indigo-500 text-white shadow-indigo-500/50 outline-none ring-indigo-600 print:text-gray-900 print:bg-gray-200 ;
+}
+
+.btn.yellow {
+  @apply bg-amber-500 text-white shadow-amber-500/50 outline-none ring-amber-600 print:text-gray-900 print:bg-gray-200 ;
+}
+
+.btn.green {
+  @apply bg-emerald-500 text-white shadow-emerald-500/50 outline-none ring-emerald-600 print:text-gray-900 print:bg-gray-200;
+}
+
+
+article.prose td p {
+  @apply my-0;
+}
+
+article.prose p {
+  @apply font-serif;
+}
+
+article.prose h4 {
+  @apply flex justify-between pt-2 font-mono text-2xl font-normal;
+}

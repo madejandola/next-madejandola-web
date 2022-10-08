@@ -1,0 +1,61 @@
+/* purgecss start ignore */
+
+.headroom {
+  @apply text-gray-900 bg-white border-b border-amber-300 border-dashed;
+  backdrop-filter: blur(2px);
+}
+
+.headroom-wrapper {
+  position: absolute;
+}
+
+.headroom {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
+  position: fixed !important;
+  transition: all 800ms ease-in-out;
+}
+
+.headroom--scrolled {
+}
+
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(-100px);
+}
+.headroom nav a {
+  @apply p-1 font-sans text-sm font-medium border-b-2 border-transparent border-dashed text-gray-900  duration-300 md:text-xl sm:py-6 sm:px-3 hover:text-[#2bb673];
+}
+
+.headroom nav a.active {
+  @apply font-bold border-inherit;
+}
+
+.headroom nav a:nth-child(1),
+.headroom nav a.active:nth-child(1) {
+  @apply hover:text-[#2bb673];
+}
+.headroom nav a:nth-child(2),
+.headroom nav a.active:nth-child(2) {
+  @apply hover:text-[#27aae1];
+}
+.headroom nav a:nth-child(3),
+.headroom nav a.active:nth-child(3) {
+  @apply hover:text-indigo-500;
+}
+.headroom nav a:nth-child(4),
+.headroom nav a.active:nth-child(4) {
+  @apply hover:text-[#ec008c];
+}
+.headroom nav a:nth-child(5),
+.headroom nav a.active:nth-child(5) {
+  @apply hover:text-[#face41];
+}
+
+.aliados .headroom {
+  @apply border-indigo-600 border-b-4;
+}
+
+/* purgecss end ignore */
