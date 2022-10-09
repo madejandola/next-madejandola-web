@@ -31,13 +31,13 @@ export default function TradicionTeleraGallery1() {
 export const galeria = [
     {
         title: "Choque Guzman",
-        image: "https://i2.wp.com/madejandola.com/wp-content/uploads/2019/09/choque-guzman-044.jpg?fit=1600%2C1200",
-        imageBlur: "https://i2.wp.com/madejandola.com/wp-content/uploads/2019/09/choque-guzman-044.jpg?fit=16%2C12"
+        image: "https://res.cloudinary.com/djoqdhbiv/image/upload/c_scale,q_auto:good,w_1600/v1665276679/web/Tramas/Tradici%C3%B3n%20Telera/choque-guzman-10_zrc735.jpg",
+        imageBlur: "https://res.cloudinary.com/djoqdhbiv/image/upload/c_scale,q_auto:good,w_5/v1665276679/web/Tramas/Tradici%C3%B3n%20Telera/choque-guzman-10_zrc735.jpg"
     },
     {
         title: "Choque Guzman",
-        image: "https://i1.wp.com/madejandola.com/wp-content/uploads/2019/09/choque-guzman-033.jpg?fit=1600%2C1200",
-        imageBlur: "https://i1.wp.com/madejandola.com/wp-content/uploads/2019/09/choque-guzman-033.jpg?fit=16%2C12"
+        image: "https://res.cloudinary.com/djoqdhbiv/image/upload/c_scale,q_auto:good,w_1600/v1665276677/web/Tramas/Tradici%C3%B3n%20Telera/choque-guzman-8_lfvzcw.jpg",
+        imageBlur: "https://res.cloudinary.com/djoqdhbiv/image/upload/c_scale,q_auto:good,w_5/v1665276677/web/Tramas/Tradici%C3%B3n%20Telera/choque-guzman-8_lfvzcw.jpg"
     },
     {
         title: "Choque Guzman",
