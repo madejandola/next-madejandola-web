@@ -35,10 +35,5 @@ export const TRAMAS = [
         ariaLabel: "ir a Grecas del olvido",
         image: "https://i1.wp.com/madejandola.com/wp-content/uploads/2019/09/Grecas-de-Olvido-portada.jpg"
     },
-    {
-        title: "Mariana Rivera: Militante de Hilo y Tela",
-        slug: "/mariana-rivera/",
-        ariaLabel: "ir a Mariana Rivera: Militante de Hilo y Tela",
-        image: "https://i0.wp.com/madejandola.com/wp-content/uploads/2019/03/mariana-1.jpg"
-    },
+
 ];

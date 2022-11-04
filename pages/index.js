@@ -21,7 +21,7 @@ export default function Home() {
           >
             <div className="relative z-10 flex flex-col items-center justify-center w-full max-w-3xl p-6">
               <div className="lg:px-0">
-                <h2 className="mt-6 mb-6 font-sans text-3xl md:text-6xl text-center text-white">Sumérgete en un universo lleno de historias que nacen en los hilos de América Latina</h2>
+                <h2 className="mt-6 mb-6 font-sans text-3xl text-center text-white md:text-6xl">Sumérgete en un universo lleno de historias que nacen en los hilos de América Latina</h2>
               </div>
               <Link href="/tramas" >
                 <a className="btn red">Explorar trama</a>
@@ -73,11 +73,11 @@ export default function Home() {
                 return (
                   <Link href={`/tramas/${route.slug}`} key={route.slug} >
                     <a className="w-full relative group overflow-hidden h-[50vh] bg-gray-900">
-                      <div className="absolute z-10 m-3 duration-300 opacity-0 bottom-3 left-3 group-hover:opacity-100">
+                      <div className="absolute z-10 m-3 duration-300 opacity-100 bottom-3 left-3 group-hover:opacity-0">
                         <h2 className="text-3xl text-white ">{route.title}</h2>
                         <div className="text-white">Explorar</div>
                       </div>
-                      <div className="duration-300 opacity-100 group-hover:opacity-30">
+                      <div className="duration-300 opacity-30 group-hover:opacity-100">
                         <Image
                           alt={route.slug}
                           src={route.image}
@@ -92,7 +92,7 @@ export default function Home() {
                 );
               })}
               <Link href="/tramas" >
-                <a className="w-full h-[50vh] bg-red-600">
+                <a className="w-full h-[50vh] bg-red-600 col-span-2 flex justify-center items-center text-lg text-white hover:bg-red-500">
                   Explorar tramas
                 </a>
               </Link>
